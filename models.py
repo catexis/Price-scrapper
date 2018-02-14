@@ -23,6 +23,7 @@ class Price(BaseModel):
 
 
 if __name__ == "__main__":
+    # Создаём таблицы при первом
     db.create_tables([Hardware])
     db.create_tables([Price])
     # r = Hardware()

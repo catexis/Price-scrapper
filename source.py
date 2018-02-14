@@ -4,8 +4,10 @@ from datetime import datetime
 from models import *
 from datetime import datetime
 
+# Для времени
 datetime.now().strftime("%Y-%m-%d %H:%M")
 
+# Тут добавлять ссылки
 url = ["https://www.computeruniverse.ru/products/90665621/asus-geforce-gtx1060-dual-6g.asp",
        "https://www.computeruniverse.ru/products/90580650/samsung-ssd-850-evo-basic-series.asp",
        "https://www.computeruniverse.ru/products/90480389/corsair-xms3-32gb-ddr3-kit.asp",
